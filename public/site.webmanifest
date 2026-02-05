@@ -1,0 +1,22 @@
+{
+  "name": "Kanal Açma İzmir",
+  "short_name": "Kanal Açma",
+  "description": "İzmir ve çevre illerde 7/24 acil kanal açma, gider temizleme ve tıkanıklık açma hizmetleri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0efeb",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
