@@ -8,15 +8,27 @@ import { CTASection } from '@/components/home/cta-section'
 import { FloatingCallButton } from '@/components/floating-call-button'
 
 export const metadata: Metadata = {
-  title: 'Tıkanıklık ve Gider Açma | 7/24 Acil Tıkanıklık Servisi - Bornova, Konak, Karşıyaka, Buca, Çiğli ve Tüm İzmir',
-  description: 'İzmir ve çevre illerde 7/24 acil tıkanıklık ve kanal açma. Lavabo, tuvalet, boru ve kanalizasyon tıkanıklıklarında aynı gün müdahale, kamera inceleme ve garantili çözüm. ',
+  title:
+    'Tıkanıklık ve Gider Açma | 7/24 Acil Tıkanıklık Servisi - Bornova, Konak, Karşıyaka, Buca, Çiğli ve Tüm İzmir',
+  description:
+    'İzmir ve çevre illerde 7/24 acil tıkanıklık ve kanal açma. Lavabo, tuvalet, boru ve kanalizasyon tıkanıklıklarında aynı gün müdahale, kamera inceleme ve garantili çözüm.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Tıkanıklık ve Gider Açma | 7/24 Acil Tıkanıklık Servisi',
-    description: 'İzmir\'de 7/24 acil kanal açma ve tıkanıklık gider hizmeti. Lavabo, tuvalet, boru ve kanalizasyon tıkanıklıklarında aynı gün çözüm!',
+    description:
+      "İzmir'de 7/24 acil kanal açma ve tıkanıklık gider hizmeti. Lavabo, tuvalet, boru ve kanalizasyon tıkanıklıklarında aynı gün çözüm!",
     url: 'https://kanalacmaizmir.com',
+    images: ['/og-image.jpg'],
+  },
+  icons: {
+    icon: '/icon-light-32x32.png', // sekme favicon (public/icon-light-32x32.png)
+    apple: '/apple-icon.png', // iOS ana ekran ikonu (public/apple-icon.png)
+    other: [
+      { rel: 'icon', url: '/icon-light-32x32.png' },
+      { rel: 'mask-icon', url: '/icon.svg' },
+    ],
   },
 }
 

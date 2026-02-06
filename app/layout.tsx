@@ -100,7 +100,7 @@ const jsonLd = {
   name: 'Kanal Açma İzmir',
   image: 'https://kanalacmaizmir.com/logo.png',
   url: 'https://kanalacmaizmir.com',
-  telephone: '+90 555 123 4567',
+  telephone: '+90 532 123 45 67',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'İzmir',

@@ -13,21 +13,22 @@ const contentBlocks = [
     icon: Heart,
     title: 'Biz Kimiz?',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'İzmir merkezli profesyonel tesisat ve kanal açma firması olarak, yılların deneyimiyle müşterilerimize güvenilir ve kalıcı çözümler sunuyoruz. Alanında uzman ekibimiz, modern ekipmanlarımız ve müşteri memnuniyeti odaklı yaklaşımımız sayesinde sektörde öncü bir konuma sahibiz. Ev, iş yeri ve endüstriyel alanlarda yaşanan kanalizasyon ve gider tıkanıklıklarını hızlı ve etkili şekilde çözüyoruz. Güvenilir hizmet anlayışımızla İzmir ve çevre illerde tercih edilen firma olmanın gururunu yaşıyoruz.',
   },
   {
     icon: Target,
     title: 'Misyonumuz',
     content:
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+      'Misyonumuz, müşterilerimizin karşılaştığı altyapı ve tesisat sorunlarını en kısa sürede, en doğru yöntemlerle ve kalıcı şekilde çözmektir. Hijyen, güvenlik ve hız önceliğimizdir. Teknolojik cihazlar ve kameralı sistemlerle tıkanıklıkların kaynağını nokta atışıyla tespit ederek gereksiz maliyetleri ortadan kaldırıyoruz. Amacımız, her müşterimize kaliteli hizmet sunarak yaşam alanlarını daha sağlıklı ve sorunsuz hale getirmektir.',
   },
   {
     icon: Eye,
     title: 'Vizyonumuz',
     content:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.',
+      'Vizyonumuz, İzmir ve çevre illerde kanal açma ve tesisat hizmetlerinde lider marka haline gelmektir. Sürekli gelişen teknolojiye uyum sağlayarak hizmet kalitemizi artırmayı, müşteri memnuniyetini en üst seviyede tutmayı hedefliyoruz. Uzun vadede Türkiye genelinde yaygın hizmet ağına sahip, güvenilir ve yenilikçi bir firma olarak sektörde fark yaratmayı amaçlıyoruz. Kalıcı çözümler, profesyonel yaklaşım ve sürdürülebilir hizmet anlayışıyla geleceğe değer katıyoruz.',
   },
 ]
+
 
 export default function AboutPage() {
   const [visibleCards, setVisibleCards] = useState<number[]>([])

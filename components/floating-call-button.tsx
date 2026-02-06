@@ -46,7 +46,7 @@ export function FloatingCallButton() {
 
   return (
     <a
-      href="tel:+905551231234"
+      href="tel:+905330204012"
       className={cn(
         // --------- Floating arama butonu yeşil rengi (WhatsApp yeşili tonu)
         'fixed bottom-6 right-6 z-[70] w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 lg:hidden',

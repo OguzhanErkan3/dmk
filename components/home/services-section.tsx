@@ -263,7 +263,7 @@ export function ServicesSection() {
 							{/* SABİT WhatsApp alanı */}
 							<div className="sticky bottom-0 p-4 bg-card border-t border-border">
 								<a
-									href="https://wa.me/905551231234"
+									href="https://wa.me/905330204012?text=Merhaba%2C%20hizmetleriniz%20hakkında%20daha%20fazla%20bilgi%20almak%20istiyorum."
 									target="_blank"
 									rel="noopener noreferrer"
 									className="

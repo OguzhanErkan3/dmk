@@ -67,7 +67,7 @@ export function Footer() {
             <h3 className="text-xl font-bold mb-4">Sosyal Medya</h3>
             <div className="flex items-center gap-4">
               <a
-                href="https://wa.me/905551231234"
+                href="https://wa.me/905330204012?text=Merhaba%2C%20hizmetleriniz%20hakkında%20daha%20fazla%20bilgi%20almak%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
