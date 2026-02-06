@@ -39,7 +39,7 @@ export default function ContactPage() {
                         Adres
                       </h3>
                       <p className="text-muted-foreground text-sm break-words">
-                        xxxxxx
+                       Meriç, 5741. Sk. No:29, 35090 Bornova/İzmir
                       </p>
                     </div>
                   </div>
@@ -56,7 +56,7 @@ export default function ContactPage() {
                         href="tel:+905551231234"
                         className="text-muted-foreground text-sm hover:text-primary transition-colors"
                       >
-                        555 123 1234
+                        +90 533 020 40 12
                       </a>
                     </div>
                   </div>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                   </h3>
                   <div className="flex items-center gap-4">
                     <a
-                      href="https://wa.me/905551231234"
+                      href="https://wa.me/905330204012"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-[#25D366] text-white flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -135,22 +135,21 @@ export default function ContactPage() {
               </CardContent>
             </Card>
 
-            {/* Map Placeholder */}
-            <Card className="overflow-hidden">
-              <CardContent className="p-0 h-full min-h-[300px] lg:min-h-0">
-                <div className="w-full h-full min-h-[300px] bg-muted flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-                    <p className="text-muted-foreground">
-                      Harita burada görüntülenecek
-                    </p>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      (Google Maps Embed)
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+            {/* Map */}
+<Card className="overflow-hidden">
+  <CardContent className="p-0 h-full min-h-[300px] lg:min-h-0">
+    <div className="w-full h-full min-h-[300px]">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.812731408378!2d27.184100995261474!3d38.42269244171656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9628615e070bb%3A0xf5072792290f8ada!2zTWVyacOnLCA1NzQxLiBTay4gTm86MjksIDM1MDkwIEJvcm5vdmEvxLB6bWly!5e0!3m2!1str!2str!4v1770339440599!5m2!1str!2str"
+        className="w-full h-full min-h-[300px] border-0"
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+  </CardContent>
+</Card>
+
           </div>
         </div>
       </section>

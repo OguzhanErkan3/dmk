@@ -62,7 +62,7 @@ export function HeroSection() {
         {/* Social Icons */}
         <div className="flex items-center gap-4 mb-8">
           <a
-            href="https://wa.me/905551231234"
+            href="https://wa.me/905330204012"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center"
@@ -104,7 +104,7 @@ export function HeroSection() {
 
         {/* CTA Button */}
         <a
-          href="tel:+905551231234"
+          href="tel:+905330204012"
           className="inline-flex items-center gap-2 bg-white text-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:scale-105 hover:bg-white/90 transition-all duration-300 shadow-lg"
         >
           <Phone className="w-5 h-5" />

@@ -23,12 +23,12 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 shrink-0" />
-                <span className="text-sm">xxxxxx</span>
+                <span className="text-sm">Meriç, 5741. Sk. No:29, 35090 Bornova/İzmir</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 shrink-0" />
-                <a href="tel:+905551231234" className="text-sm hover:underline">
-                  555 123 1234
+                <a href="tel:+905330204012" className="text-sm hover:underline">
+                  +90 533 020 40 12
                 </a>
               </li>
               <li className="flex items-center gap-3">
