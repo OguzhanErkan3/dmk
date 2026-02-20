@@ -61,22 +61,7 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-                      <Mail className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">
-                        E-posta
-                      </h3>
-                      <a
-                        href="mailto:info@example.com"
-                        className="text-muted-foreground text-sm hover:text-primary transition-colors break-words"
-                      >
-                        xxxxxx
-                      </a>
-                    </div>
-                  </div>
+                  
                 </div>
 
                 {/* Social Media Icons */}
@@ -101,7 +86,7 @@ export default function ContactPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/share/183U9dWcs9/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-[#1877F2] text-white flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -116,7 +101,7 @@ export default function ContactPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/dmkdondurmamakinalarikiralama"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] text-white flex items-center justify-center hover:opacity-80 transition-opacity"

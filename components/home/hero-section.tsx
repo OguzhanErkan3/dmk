@@ -62,7 +62,7 @@ export function HeroSection() {
         {/* Social Icons */}
         <div className="flex items-center gap-4 mb-8">
           <a
-            href="https://wa.me/905330204012"
+            href="https://wa.me/905330204012?text=Merhaba%2C%20hizmetleriniz%20hakkında%20daha%20fazla%20bilgi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center"
@@ -75,7 +75,7 @@ export function HeroSection() {
             <span className="text-xs text-white/70 mt-2">WhatsApp</span>
           </a>
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/183U9dWcs9/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center"
@@ -88,7 +88,7 @@ export function HeroSection() {
             <span className="text-xs text-white/70 mt-2">Facebook</span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/dmkdondurmamakinalarikiralama"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center"

@@ -5,8 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { Target, Eye, Heart } from 'lucide-react'
 
-// Not: 'use client' oldugu icin metadata burada tanimlanamaz.
-// Metadata icin ayri bir layout.tsx veya generateMetadata kullanilabilir.
+
 
 const contentBlocks = [
   {

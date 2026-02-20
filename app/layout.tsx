@@ -135,7 +135,7 @@ export default function RootLayout({
         />
         {/* Google Analytics - GA4 */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=G-EE342TDFX8"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -143,7 +143,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXX', { 'anonymize_ip': true });
+            gtag('config', 'G-EE342TDFX8', { 'anonymize_ip': true });
           `}
         </Script>
       </head>

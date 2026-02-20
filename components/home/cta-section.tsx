@@ -34,7 +34,7 @@ export function CTASection() {
         <SectionAnimator animation="fade-up" delay={200} className="flex flex-col sm:flex-row items-center justify-center gap-4">
           {/* Primary CTA - WhatsApp */}
           <CTAButton
-            href="https://wa.me/905330204012"
+            href="https://wa.me/905330204012?text=Merhaba%2C%20hizmetleriniz%20hakkında%20daha%20fazla%20bilgi%20almak%20istiyorum."
             variant="primary"
             icon={<MessageCircle className="w-5 h-5" />}
             label="Whatsapp ile Mesaj Gönder"

@@ -31,12 +31,7 @@ export function Footer() {
                   +90 533 020 40 12
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 shrink-0" />
-                <a href="mailto:info@example.com" className="text-sm hover:underline">
-                  xxxxxx
-                </a>
-              </li>
+              
             </ul>
           </div>
 
@@ -78,7 +73,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/183U9dWcs9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
@@ -89,7 +84,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="hhttps://www.instagram.com/dmkdondurmamakinalarikiralama"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
