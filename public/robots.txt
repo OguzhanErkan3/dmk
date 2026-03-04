@@ -1,0 +1,16 @@
+# Kanal Açma İzmir - robots.txt
+# https://kanalacmaizmir.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kanalacmaizmir.com/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+
+# Disallow admin/private paths (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
