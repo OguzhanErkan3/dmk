@@ -83,7 +83,11 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
   },
   manifest: '/site.webmanifest',
+<<<<<<< HEAD
     generator: 'Next.js',
+=======
+    generator: 'v0.app'
+>>>>>>> a4d07e2bb13a1eed6cb1a48b03c1861f81dfbc81
 }
 
 export const viewport: Viewport = {
@@ -100,7 +104,11 @@ const jsonLd = {
   name: 'Kanal Açma İzmir',
   image: 'https://kanalacmaizmir.com/logo.png',
   url: 'https://kanalacmaizmir.com',
+<<<<<<< HEAD
   telephone: '+905330204012',
+=======
+  telephone: '+90 532 123 45 67',
+>>>>>>> a4d07e2bb13a1eed6cb1a48b03c1861f81dfbc81
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'İzmir',

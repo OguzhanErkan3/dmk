@@ -38,7 +38,10 @@
     "@radix-ui/react-toggle-group": "1.1.1",
     "@radix-ui/react-tooltip": "1.1.6",
     "@vercel/analytics": "1.3.1",
+<<<<<<< HEAD
     "@vercel/blob": "^2.3.1",
+=======
+>>>>>>> a4d07e2bb13a1eed6cb1a48b03c1861f81dfbc81
     "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -71,4 +74,8 @@
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a4d07e2bb13a1eed6cb1a48b03c1861f81dfbc81

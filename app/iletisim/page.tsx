@@ -53,7 +53,11 @@ export default function ContactPage() {
                         Telefon
                       </h3>
                       <a
+<<<<<<< HEAD
                         href="tel:+905330204012"
+=======
+                        href="tel:+905551231234"
+>>>>>>> a4d07e2bb13a1eed6cb1a48b03c1861f81dfbc81
                         className="text-muted-foreground text-sm hover:text-primary transition-colors"
                       >
                         +90 533 020 40 12
@@ -71,7 +75,11 @@ export default function ContactPage() {
                   </h3>
                   <div className="flex items-center gap-4">
                     <a
+<<<<<<< HEAD
                       href="https://wa.me/905330204012?text=Merhaba%2C%20Kanal%20A%C3%A7ma%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+=======
+                      href="https://wa.me/905330204012"
+>>>>>>> a4d07e2bb13a1eed6cb1a48b03c1861f81dfbc81
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-[#25D366] text-white flex items-center justify-center hover:opacity-80 transition-opacity"
