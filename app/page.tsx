@@ -9,7 +9,6 @@ import { FloatingCallButton } from '@/components/floating-call-button'
 
 import GallerySection from '@/components/home/GallerySection'
 
-
 export const metadata: Metadata = {
   title:
     'Tıkanıklık ve Gider Açma | 7/24 Acil Tıkanıklık Servisi - Bornova, Konak, Karşıyaka, Buca, Çiğli ve Tüm İzmir',
@@ -26,10 +25,8 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   icons: {
-
     icon: '/icon-light-32x32.png',
     apple: '/apple-icon.png',
-
     other: [
       { rel: 'icon', url: '/icon-light-32x32.png' },
       { rel: 'mask-icon', url: '/icon.svg' },
@@ -37,14 +34,17 @@ export const metadata: Metadata = {
   },
 }
 
-
 export default async function HomePage() {
-  // API’den galeri verisini çekiyoruz
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/gallery`, {
-    cache: 'no-store',
-  })
-  const items = await res.json()
-
+  // Galeri verisini çekiyoruz (hata olursa boş liste döner)
+  let items: any[] = []
+  try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/gallery`, { cache: 'no-store' })
+    if (res.ok) {
+      items = await res.json()
+    }
+  } catch (err) {
+    console.error('Galeri yüklenemedi', err)
+  }
 
   return (
     <>
@@ -52,10 +52,8 @@ export default async function HomePage() {
       <ServicesSection />
       <WorkingHoursSection />
 
-
-      {/* Yeni eklenen*/}
-      <GallerySection items={items} /> 
-
+      {/* Yeni eklenen */}
+      <GallerySection items={items} />
 
       <TestimonialsSection />
       <FAQSection />
