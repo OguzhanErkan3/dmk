@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'GOOGLE_SITE_VERIFICATION_CODE', // Google Search Console dogrulama kodu buraya eklenecek
+    google: '1CLNB_nY59r7muXNFCYLLISN8lBggioxroxy42WcyUo', // Google Search Console dogrulama kodu
   },
   icons: {
     icon: [
