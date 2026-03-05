@@ -6,8 +6,7 @@ export async function GET() {
 
   // Her dosya için URL ve tip (image/video) belirle
   const items = blobs.map((b) => {
-    const contentType = b.contentType ?? "" // undefined ise boş string
-    const type = contentType.startsWith("video") ? "video" : "image"
+    const type = b.url.includes("video") || b.pathname?.includes("video") ? "video" : "image"
     return { url: b.url, type }
   })
 
