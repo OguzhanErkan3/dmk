@@ -8,7 +8,7 @@ import { CTASection } from '@/components/home/cta-section'
 import { FloatingCallButton } from '@/components/floating-call-button'
 import { GallerySection } from '@/components/home/gallery-section'
 
-import GallerySection from '@/components/home/GallerySection'
+
 
 export const metadata: Metadata = {
   title:
