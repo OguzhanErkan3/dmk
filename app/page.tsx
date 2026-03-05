@@ -53,8 +53,8 @@ export default async function HomePage() {
       <WorkingHoursSection />
 
 
-      {/* Yeni eklenen galeri section */}
-      <GallerySection items={items} />
+      {/* Yeni eklenen*/}
+      <GallerySection items={items} /> 
 
 
       <TestimonialsSection />
