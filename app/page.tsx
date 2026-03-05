@@ -6,6 +6,7 @@ import { TestimonialsSection } from '@/components/home/testimonials-section'
 import { FAQSection } from '@/components/home/faq-section'
 import { CTASection } from '@/components/home/cta-section'
 import { FloatingCallButton } from '@/components/floating-call-button'
+import { GallerySection } from '@/components/home/gallery-section'
 
 import GallerySection from '@/components/home/GallerySection'
 
@@ -35,17 +36,7 @@ export const metadata: Metadata = {
 }
 
 export default async function HomePage() {
-  // Galeri verisini çekiyoruz (hata olursa boş liste döner)
-  let items: any[] = []
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/gallery`, { cache: 'no-store' })
-    if (res.ok) {
-      items = await res.json()
-    }
-  } catch (err) {
-    console.error('Galeri yüklenemedi', err)
-  }
-
+ 
   return (
     <>
       <HeroSection />
@@ -53,7 +44,7 @@ export default async function HomePage() {
       <WorkingHoursSection />
 
       {/* Yeni eklenen */}
-      <GallerySection items={items} />
+      <GallerySection/>
 
       <TestimonialsSection />
       <FAQSection />
