@@ -26,7 +26,7 @@ export default function AdminPage() {
         />
         <button
           onClick={() => {
-            if (username === "admin" && password === "1234") {
+            if (username === "admin" && password === "orucourc1987") {
               setLoggedIn(true)
             } else {
               alert("Hatalı giriş")
