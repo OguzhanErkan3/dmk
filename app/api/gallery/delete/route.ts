@@ -1,13 +1,25 @@
-import { del } from "@vercel/blob"
+import { del } from '@vercel/blob'
+import { type NextRequest, NextResponse } from 'next/server'
 
-export async function DELETE(req: Request) {
-  const { url } = await req.json()
-
-  if (!url) {
-    return Response.json({ error: "URL gerekli" }, { status: 400 })
+export async function DELETE(request: NextRequest) {
+  // Auth kontrolu
+  const cookie = request.cookies.get('admin-auth')
+  if (cookie?.value !== 'authenticated') {
+    return NextResponse.json({ error: 'Yetkisiz erisim' }, { status: 401 })
   }
 
-  await del(url)
+  try {
+    const { url } = await request.json()
 
-  return Response.json({ success: true })
+    if (!url) {
+      return NextResponse.json({ error: 'URL bulunamadi' }, { status: 400 })
+    }
+
+    await del(url)
+
+    return NextResponse.json({ success: true })
+  } catch (error) {
+    console.error('Delete error:', error)
+    return NextResponse.json({ error: 'Silme basarisiz' }, { status: 500 })
+  }
 }
